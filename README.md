@@ -29,8 +29,8 @@ Requirements: Android Studio (or JDK 17 + Android SDK 35).
 The APK lands in `app/build/outputs/apk/release/`. It's signed with the debug key so you can
 sideload it directly (allow "Install unknown apps" for your file manager or browser).
 
-Pushing this folder to a GitHub repo also builds the APK automatically: open the repo's
-**Actions** tab, pick the latest "Build APK" run, and download the `CozyPulse-apk` artifact.
+Every push to `main` builds the APK on GitHub and publishes it on the repo's **Releases** page:
+open the latest release on your phone and tap `CozyPulse.apk` to install.
 
 ## Possible next step
 
